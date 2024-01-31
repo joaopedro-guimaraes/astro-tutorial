@@ -3,6 +3,8 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "pc": "prettier ./src --check",
+    "pw": "prettier ./src --write",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -11,5 +13,9 @@
   },
   "dependencies": {
     "astro": "^4.2.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }

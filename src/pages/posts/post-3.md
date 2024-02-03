@@ -1,11 +1,12 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: Minha Terceira Postagem no Blog
-author: Aluno de Astro
+author: João Pedro E. Guimarães
 description: 'Eu tive alguns desafios, mas perguntar na comunidade realmente me ajudou!'
 image:
   url: 'https://docs.astro.build/assets/rays.webp'
   alt: 'Miniaturas de raios do Astro.'
-pubDate: 2022-07-15
+pubDate: 2024-07-01
 tags: ['astro', 'aprendendo em público', 'contratempos', 'comunidade']
 ---
 
